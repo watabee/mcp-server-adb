@@ -120,6 +120,21 @@ MCP Server for Android Debug Bridge (ADB), enabling Claude to interact with Andr
       * `stopApp` (boolean, default: false): Force stop app (-S)
     * Returns: Activity start result
 
+15. `kill-server`
+    * Kill the ADB server process
+    * No inputs required
+    * Returns: Success message or error
+
+16. `start-server`
+    * Start the ADB server process
+    * No inputs required  
+    * Returns: Success message or error
+
+17. `help`
+    * Show ADB help information
+    * No inputs required
+    * Returns: ADB help text
+
 All tools support these device selection parameters:
 * `deviceId` (string, optional): Target specific device by ID
 * `useUsb` (boolean, default: false): Target USB device (-d)
